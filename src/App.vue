@@ -1,10 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HomeLayout from "@/shared/layouts/HomeLayout.vue";
 </script>
 
 <template>
   <div>
-  <p class="text-blue-500">Hey buddy</p>
+  <HomeLayout>
+    <router-view />
+  </HomeLayout>
   </div>
 </template>
 
