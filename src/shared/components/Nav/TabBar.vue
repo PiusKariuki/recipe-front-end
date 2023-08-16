@@ -4,7 +4,7 @@ import {routes} from "@/shared/data/routes.js";
 </script>
 
 <template>
-    <div class="flex w-full justify-between px-4 py-6 border-t-[1px] curved fixed inset-x-0 bottom-0">
+    <div class="flex w-full justify-between px-4 py-6 border-t-[1px] curved fixed inset-x-0 bottom-0 bg-white lg:hidden">
       <router-link
           v-for="item in routes"
           :key="item.name"
