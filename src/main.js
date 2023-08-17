@@ -7,12 +7,21 @@ import {apolloClient} from "@/shared/apollo/index.js";
 import {router} from "@/shared/router/indexRouter.js";
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
-import {faBookmark, faCirclePlus, faHouse, faMagnifyingGlass, faUser} from "@fortawesome/free-solid-svg-icons";
+import {
+    faBookmark,
+    faChevronLeft,
+    faCirclePlus, faClock, faFire,
+    faHouse, faLink,
+    faMagnifyingGlass, faPlayCircle, faStar,
+    faUser, faComments
+} from "@fortawesome/free-solid-svg-icons";
 import MazBtn from 'maz-ui/components/MazBtn'
 import MazInput from 'maz-ui/components/MazInput'
+import {faHeart} from "@fortawesome/free-regular-svg-icons";
 
 
-library.add(faHouse, faUser, faMagnifyingGlass, faBookmark, faCirclePlus)
+library.add(faHouse, faUser, faMagnifyingGlass, faBookmark, faCirclePlus, faChevronLeft, faHeart, faFire, faStar,
+    faClock, faPlayCircle, faLink, faComments)
 
 
 const app = createApp({

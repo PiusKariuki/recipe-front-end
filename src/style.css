@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: 'Jura', sans-serif;
+}
 
 
 ::-webkit-scrollbar {
